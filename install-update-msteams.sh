@@ -15,7 +15,7 @@ if ! hash brew &>/dev/null; then
 fi
 
 # poor man's prereq check
-for f in jq dockutil pwsh:powershell ; do
+for f in dockutil pwsh:powershell ; do
   if ! hash "${f%%:*}" &>/dev/null; then brew install --quiet "${f##*:}"; fi
 done
 
