@@ -5,7 +5,7 @@ Fetches and installs the latest version of Microsoft Teams for macOS.
 ### Requirements
 
 - [Homebrew](https://brew.sh)
-- `dockutil`, `pwsh` (powershell) — these will be auto-installed by Homebrew if missing
+- `dockutil`, `pwsh` (PowerShell Core) — these will be auto-installed by Homebrew if missing
 
 ### Usage
 
